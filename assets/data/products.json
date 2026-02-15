@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Kablosuz Bluetooth Kulaklık",
+    "description": "Yüksek kaliteli ses deneyimi sunan, 30 saat pil ömürlü kablosuz bluetooth kulaklık. Aktif gürültü engelleme özelliği ile dış sesleri minimize eder.",
+    "price": 899.99,
+    "image": "https://picsum.photos/seed/headphone/400/400",
+    "category": "Elektronik",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Akıllı Saat Pro",
+    "description": "Sağlık takibi, bildirim yönetimi ve spor modları ile donatılmış akıllı saat. Kalp ritmi, uyku takibi ve adım sayar özellikleri mevcuttur.",
+    "price": 2499.99,
+    "image": "https://picsum.photos/seed/smartwatch/400/400",
+    "category": "Elektronik",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "title": "Mekanik Klavye RGB",
+    "description": "Cherry MX Blue switch teknolojisi ile üstün yazma deneyimi. RGB arka aydınlatma ve makro tuş desteği.",
+    "price": 1299.99,
+    "image": "https://picsum.photos/seed/keyboard/400/400",
+    "category": "Bilgisayar",
+    "rating": 4.3
+  },
+  {
+    "id": 4,
+    "title": "Taşınabilir Şarj Cihazı 20000mAh",
+    "description": "20000mAh kapasiteli taşınabilir şarj cihazı. Çift USB çıkışı ile aynı anda iki cihazı şarj edebilir.",
+    "price": 449.99,
+    "image": "https://picsum.photos/seed/powerbank/400/400",
+    "category": "Aksesuar",
+    "rating": 4.1
+  },
+  {
+    "id": 5,
+    "title": "Spor Ayakkabı Ultra",
+    "description": "Hafif ve esnek yapısı ile koşu ve yürüyüş için ideal. Nefes alan kumaş tasarımı, darbe emici taban teknolojisi.",
+    "price": 1899.99,
+    "image": "https://picsum.photos/seed/shoes/400/400",
+    "category": "Giyim",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "title": "Drone Kamera 4K",
+    "description": "4K kamera çözünürlüğü ile profesyonel hava çekimleri. 30 dakika uçuş süresi, GPS destekli otomatik dönüş.",
+    "price": 5999.99,
+    "image": "https://picsum.photos/seed/drone/400/400",
+    "category": "Elektronik",
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "title": "Yoga Matı Premium",
+    "description": "6mm kalınlığında kaymaz yoga matı. Doğal kauçuk malzeme, ter emici yüzey. Pilates ve yoga için ideal.",
+    "price": 349.99,
+    "image": "https://picsum.photos/seed/yogamat/400/400",
+    "category": "Spor",
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "title": "LED Masa Lambası",
+    "description": "Göz koruma teknolojisi ile LED masa lambası. 5 farklı parlaklık seviyesi, 3 renk modu. USB şarj portu.",
+    "price": 599.99,
+    "image": "https://picsum.photos/seed/lamp/400/400",
+    "category": "Ev & Yaşam",
+    "rating": 4.2
+  },
+  {
+    "id": 9,
+    "title": "Termos Matara 750ml",
+    "description": "Çift cidarlı paslanmaz çelik termos. 12 saat sıcak, 24 saat soğuk tutabilme kapasitesi. BPA içermeyen.",
+    "price": 249.99,
+    "image": "https://picsum.photos/seed/thermos/400/400",
+    "category": "Ev & Yaşam",
+    "rating": 4.0
+  },
+  {
+    "id": 10,
+    "title": "Kablosuz Mouse Ergonomik",
+    "description": "Ergonomik dikey tasarım ile bilek sağlığını korur. 2.4GHz kablosuz bağlantı, 6 ayar DPI.",
+    "price": 399.99,
+    "image": "https://picsum.photos/seed/mouse/400/400",
+    "category": "Bilgisayar",
+    "rating": 4.3
+  },
+  {
+    "id": 11,
+    "title": "Bluetooth Hoparlör Su Geçirmez",
+    "description": "IPX7 su geçirmez bluetooth hoparlör. 360 derece ses yayılımı, 15 saat pil ömrü.",
+    "price": 749.99,
+    "image": "https://picsum.photos/seed/speaker/400/400",
+    "category": "Elektronik",
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "title": "Sırt Çantası Laptop",
+    "description": "15.6 inç laptop bölmeli sırt çantası. Su geçirmez kumaş, USB şarj portu. Anti-hırsızlık gizli cep.",
+    "price": 699.99,
+    "image": "https://picsum.photos/seed/backpack/400/400",
+    "category": "Aksesuar",
+    "rating": 4.6
+  }
+]
