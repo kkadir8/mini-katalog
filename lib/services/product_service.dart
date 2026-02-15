@@ -28,7 +28,7 @@ class ProductService extends ChangeNotifier {
   int get cartItemCount =>
       _cartItems.fold(0, (sum, item) => sum + item.quantity);
 
-  /// Ürünleri yükle - Önce API'den, başarısız olursa lokal JSON'dan
+  /// Ürünleri yükle - Önce lokal JSON'dan, başarısız olursa API'den
   Future<void> loadProducts() async {
     // Zaten yüklenmişse tekrar yükleme
     if (_products.isNotEmpty) return;
@@ -37,17 +37,17 @@ class ProductService extends ChangeNotifier {
     notifyListeners();
 
     try {
-      // 1. Önce API'den veri çekmeyi dene
-      _products = await _fetchFromApi();
-      debugPrint('✅ Ürünler API\'den yüklendi (${_products.length} ürün)');
+      // 1. Önce lokal JSON asset'ten oku
+      _products = await _loadFromAsset();
+      debugPrint('✅ Ürünler lokal JSON\'dan yüklendi (${_products.length} ürün)');
     } catch (e) {
-      debugPrint('⚠️ API erişilemedi: $e');
+      debugPrint('⚠️ Lokal JSON okunamadı: $e');
       try {
-        // 2. API başarısızsa lokal JSON asset'ten oku
-        _products = await _loadFromAsset();
-        debugPrint('✅ Ürünler lokal JSON\'dan yüklendi (${_products.length} ürün)');
+        // 2. Lokal başarısızsa API'den çek (Fake Store API)
+        _products = await _fetchFromApi();
+        debugPrint('✅ Ürünler API\'den yüklendi (${_products.length} ürün)');
       } catch (e2) {
-        debugPrint('❌ Lokal JSON de okunamadı: $e2');
+        debugPrint('❌ API de erişilemedi: $e2');
         _products = [];
       }
     }

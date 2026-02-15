@@ -86,7 +86,24 @@ class _HomeScreenState extends State<HomeScreen> {
             // Öne Çıkan Özellikler
             _buildFeatures(),
 
-            const SizedBox(height: 32),
+            const SizedBox(height: 24),
+
+            // Geliştirici bilgisi
+            Center(
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 16),
+                child: Text(
+                  'Kadir Gedik tarafından geliştirilmiştir.',
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.grey.shade400,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 8),
           ],
         ),
       ),
